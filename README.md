@@ -1,4 +1,37 @@
+Proyek CRUD (Create, Read, Update, Delete) untuk entitas User dengan Laravel.
+Proyek ini bisa:
+o Mendapatkan daftar semua pengguna.
+o Mendapatkan data pengguna berdasarkan id.
+o Menambahkan pengguna baru.
+o Memperbarui data pengguna berdasarkan id.
+o Menghapus pengguna berdasarkan id.
 
+Instalasi
+
+- Clone repository:
+git clone <repository-url>
+cd <project-folder>
+
+- Install dependensi Laravel:
+composer install
+
+- Konfigurasi environment:
+Sesuaikan konfigurasi database di dalam .env
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=database_name
+DB_USERNAME=database_user
+DB_PASSWORD=database_password
+
+- Jalankan migrasi database:
+php artisan migrate
+
+- Jalankan server Laravel:
+php artisan serve
+
+Aplikasi akan berjalan di http://127.0.0.1:8000
 
 //
 
